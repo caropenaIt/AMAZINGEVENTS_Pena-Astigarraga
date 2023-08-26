@@ -86,16 +86,16 @@ background-color: rgb(255, 145, 163);
 }
 .media{
   background-color: rgb(218, 58, 84);
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .media-img{
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 /* home */
 .caja-grande{
@@ -108,7 +108,7 @@ background-color: rgb(255, 145, 163);
 .card{
   border: solid 2px rgb(218, 58, 84);
   width: 300px;
-  height: 370px;
+  height: 400px;
   background-color: whitesmoke;
 }
 
