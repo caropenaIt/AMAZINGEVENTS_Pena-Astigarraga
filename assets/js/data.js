@@ -194,30 +194,3 @@ const data = {
     },
   ],
 };
-
-function cardMaker2(elemento, mainID){
-  for(datos of elemento){
-    let tarjeta= `<div class="card">
-    <img src="${datos.image}" class="card-img-top" alt="${datos.name}">
-    <div class="card-body">
-      <h5 class="card-title">${datos.name}</h5>
-      <p class="card-text">${datos.description}</p>
-      <p>Price: ${datos.price}</p>
-      <a href="../pages/details.html" class="btn">Details</a>
-    </div>
-  </div>
-  </div>`;
-  document.getElementById(mainID).innerHTML += tarjeta;
-  }
-};
-
-let pastEvents = [];
-for(let datos of data.events){
-  if(datos.date < data.currentDate){
-    pastEvents.push(datos);
-  }
-};
-cardMaker2(pastEvents, 'tarjetas');
-
-
-

@@ -15,8 +15,8 @@ p{
   color: rgb(58, 57, 57);
 }
 .logo{
-  width: 150px;
-  height: 100px;
+  width: 200px;
+  height: 60px;
   margin: 10px;
   border-radius: 5px;
   background-color: rgb(255, 184, 196);
@@ -59,7 +59,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 120px;
   border-top: solid 2px rgb(218, 58, 84);
   background-color: palevioletred;
   height: 120px;
@@ -111,7 +111,11 @@ background-color: rgb(255, 145, 163);
   height: 400px;
   background-color: whitesmoke;
 }
-
+.foot-flex{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
 .card-img-top{
   height: 250px;
   width: 290px;
@@ -120,8 +124,9 @@ background-color: rgb(255, 145, 163);
 .btn{
   background-color: rgb(197, 85, 103);
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 15px;
+  width: 70px;
 }
 .btn:hover,.submit:hover{
   background-color: pink;
@@ -162,7 +167,7 @@ form > label{
 }
 .word-box{
   border: solid 2px rgb(218, 58, 84);
-  height: 265px;
+  height: 275px;
   width: 290px;
   background-color: whitesmoke;
 }
@@ -193,6 +198,10 @@ th{
 }
 .input-flex{
   flex-wrap: wrap;
+}
+.logo{
+  width: 150px;
+  height: 60px;
 }
 }
 @media (min-width: 801px) and (max-width: 1600px){
