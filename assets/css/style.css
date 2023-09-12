@@ -50,6 +50,7 @@ a{
 .input-flex{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 15px;
   margin-top: 10px;
   background-color: pink;
@@ -127,9 +128,12 @@ background-color: rgb(255, 145, 163);
   border-radius: 10px;
   margin-bottom: 15px;
   width: 70px;
+  border: none;
+  margin-top: 10px;
 }
 .btn:hover,.submit:hover{
   background-color: pink;
+  cursor: pointer;
 }
 /* upcoming events */
 
@@ -170,12 +174,15 @@ form > label{
   height: 275px;
   width: 290px;
   background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 /* stats */
 table, td, tr{
   border: 2px solid rgb(218, 58, 84);
   border-collapse: collapse;
-
+  width: 700px;
 }
 table, th{
   background-color: lightgray;

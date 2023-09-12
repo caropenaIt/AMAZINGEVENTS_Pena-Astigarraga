@@ -1,3 +1,5 @@
-cardMaker(data.events, 'tarjetas');
-checkboxesDiv;
-inputText;
+//funciones invocadas
+cardMaker('tarjetas');
+checkboxMaker();
+performSearch();
+limpiaFiltro();
